@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Related Posts Widget
-Plugin URI: http://jameslao.com/2009/12/31/related-posts-widget-1-0/
+Plugin URI: http://jameslao.com/2010/01/01/related-posts-widget-1-0/
 Description: Adds a widget that shows a list of related posts.
 Author: James Lao	
 Version: 1.0
