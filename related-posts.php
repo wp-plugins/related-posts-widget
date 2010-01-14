@@ -4,7 +4,7 @@ Plugin Name: Related Posts Widget
 Plugin URI: http://jameslao.com/2010/01/01/related-posts-widget-1-0/
 Description: Adds a widget that shows a list of related posts.
 Author: James Lao	
-Version: 1.0
+Version: 1.1
 Author URI: http://jameslao.com/
 */
 
@@ -22,7 +22,8 @@ if ( function_exists('add_image_size') )
 class RelatedPosts extends WP_Widget {
 
 function RelatedPosts() {
-	parent::WP_Widget(false, $name='Related Posts');
+	$widget_ops = array('classname' => 'rel-post-widget', 'description' => __('List related posts'));
+	$this->WP_Widget('related-posts', __('Related Posts'), $widget_ops);
 }
 
 /**
@@ -54,7 +55,7 @@ function widget($args, $instance) {
 		$args=array(
 			'tag__in' => $tag_ids,
 			'post__not_in' => array($post->ID),
-			'showposts'=> $instance['num_posts'], // Number of related posts that will be shown.
+			'showposts'=> $instance['num'], // Number of related posts that will be shown.
 			'caller_get_posts'=>1
 			);
 		$my_query = new WP_Query($args);
