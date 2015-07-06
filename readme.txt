@@ -40,7 +40,7 @@ In the search field type “Related Posts Widget” and click Search Plugins. On
 3. Goto the Plugins section of the WordPress admin and activate the plugin.
 4. Now, goto the Widgets page of the Appearance section and configure the Related Posts widget.
 
-Read more about installting plugins at [WordPress Codex] (https://codex.wordpress.org/Managing_Plugins#Installing_Plugins)
+Read more about installting plugins at [WordPress Codex](https://codex.wordpress.org/Managing_Plugins#Installing_Plugins)
 
 == Screenshots ==
 
