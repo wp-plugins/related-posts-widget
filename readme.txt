@@ -3,8 +3,8 @@ Contributors: mkrdip
 Donate link: http://mkrdip.me/donate
 Tags: similar posts widget, related posts widget, related posts
 Requires at least: 3.0
-Tested up to: 4.2.2
-Stable tag: 2.0
+Tested up to: 4.3
+Stable tag: 2.0.1
 
 Adds a widget that shows posts related to the current post based on tags.
 
@@ -40,7 +40,7 @@ In the search field type “Related Posts Widget” and click Search Plugins. On
 3. Goto the Plugins section of the WordPress admin and activate the plugin.
 4. Now, goto the Widgets page of the Appearance section and configure the Related Posts widget.
 
-Read more about installting plugins at [WordPress Codex](https://codex.wordpress.org/Managing_Plugins#Installing_Plugins)
+Read more about installting plugins at [WordPress Codex] (https://codex.wordpress.org/Managing_Plugins#Installing_Plugins)
 
 == Screenshots ==
 
@@ -48,6 +48,11 @@ Read more about installting plugins at [WordPress Codex](https://codex.wordpress
 2. Front end of the widget using a default WordPress Theme.
 
 == Changelog ==
+
+2.0.1
+
+* Added PHP5 Constructor
+* Compatible with WordPress 4.3
 
 2.0 
 
